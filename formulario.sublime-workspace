@@ -1,0 +1,464 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"progr",
+				"programa\tvar"
+			],
+			[
+				"fun",
+				"function\tkeyword"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"do",
+				"document\tvar"
+			],
+			[
+				"ht",
+				"HTMLElement\tinterface"
+			],
+			[
+				"pro",
+				"programas\tvar"
+			],
+			[
+				"prog",
+				"programa\tlocal var"
+			],
+			[
+				"set",
+				"setVersion\tmethod"
+			],
+			[
+				"pr",
+				"programa\tlocal var"
+			],
+			[
+				"se",
+				"setNombre\tmethod"
+			],
+			[
+				"v",
+				"value\tproperty"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"s",
+				"setTimeLine\tmethod"
+			],
+			[
+				"edti",
+				"editorVideo\tclass"
+			],
+			[
+				"Coch",
+				"CocheBase\tinterface"
+			],
+			[
+				"Coh",
+				"CocheBase\tinterface"
+			],
+			[
+				"pri",
+				"private\tkeyword"
+			],
+			[
+				"null",
+				"null\tkeyword"
+			],
+			[
+				"coch",
+				"coche1\tvar"
+			],
+			[
+				"stri",
+				"string\tkeyword"
+			],
+			[
+				"n",
+				"num\tparameter"
+			],
+			[
+				"num",
+				"number\tkeyword"
+			],
+			[
+				"nu",
+				"number\tkeyword"
+			],
+			[
+				"HTML",
+				"HTMLElement\tinterface"
+			],
+			[
+				"state",
+				"stateProvider"
+			],
+			[
+				"ng-re",
+				"ng-repeat\tAngularJS"
+			],
+			[
+				"$s",
+				"$scope\tAngularJS"
+			],
+			[
+				"btn",
+				"btn-primary"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "procesos.ts",
+			"settings":
+			{
+				"buffer_size": 895,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Typescript/coche.js",
+			"settings":
+			{
+				"buffer_size": 1894,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "procesos.js",
+			"settings":
+			{
+				"buffer_size": 1336,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/Typescript",
+		"/Users/charliecobo/Documents/Proyectos/web"
+	],
+	"file_history":
+	[
+		"/Users/charliecobo/Documents/Proyectos/web/procesos.js",
+		"/Applications/MAMP/htdocs/Typescript/coche.ts",
+		"/Applications/MAMP/htdocs/Typescript/programa.ts",
+		"/Users/charliecobo/Documents/Proyectos/web/index.html",
+		"/Users/charliecobo/Documents/Proyectos/Softlife/production/index.html",
+		"/Applications/MAMP/htdocs/Typescript/index.html",
+		"/Applications/MAMP/htdocs/Typescript/programa.js",
+		"/Applications/MAMP/htdocs/Typescript/coche.js",
+		"/Applications/MAMP/htdocs/Typescript/prueba.js",
+		"/Applications/MAMP/htdocs/Typescript/prueba.ts",
+		"/Users/charliecobo/Documents/ionic/ToDoList/www/index.html",
+		"/Users/charliecobo/Documents/ionic/ToDoList/www/templates/edit.html",
+		"/Users/charliecobo/Documents/ionic/ToDoList/www/templates/list.html",
+		"/Users/charliecobo/Documents/ionic/ToDoList/www/js/app.js",
+		"/Users/charliecobo/Documents/ionic/Importante.txt",
+		"/Applications/MAMP/htdocs/imc/src/conexion.php",
+		"/Applications/MAMP/htdocs/imc/js/Proceso.js",
+		"/Applications/MAMP/htdocs/imc/src/Guardar.php",
+		"/Applications/MAMP/htdocs/imc/index.php",
+		"/Applications/MAMP/htdocs/imc/src/Consultar.php",
+		"/Applications/MAMP/htdocs/bisy2/frm/cliente.html",
+		"/Applications/MAMP/htdocs/imc/index.html",
+		"/Applications/MAMP/htdocs/imc/bootstrap/js/bootstrap.min.js",
+		"/Applications/MAMP/htdocs/bisy2/menu/menuAdmin.html",
+		"/Applications/MAMP/htdocs/bisy2/bd/bisy.sql",
+		"/Applications/MAMP/htdocs/bisy2/src/conexion.php",
+		"/Applications/MAMP/htdocs/imc/bd/dbimc.sql",
+		"/Users/charliecobo/Library/Application Support/Sublime Text 3/Packages/Package Control.sublime-package"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"public",
+			"version",
+			"versiona",
+			"estatura",
+			"txtnombre",
+			"peso",
+			"Cliente",
+			"mydb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"private",
+			"servidor",
+			"txtNombre",
+			"nombre",
+			"dbpuertos"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "procesos.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								336,
+								336
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/Typescript/coche.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "procesos.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "formulario.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
