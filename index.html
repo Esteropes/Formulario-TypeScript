@@ -2,26 +2,74 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
+	<script src="js/jQuery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	
 	<title>Prueba para Git</title>
 </head>
 <body>
 	<div class="container">
-		<form>
-			<input type="text" id="txtNombre" placeholder="Nombre">
-			<input type="text" id="txtApellido" placeholder="Apellido">
-			<input type="number" id="txtEdad" placeholder="Edad">
-			<input type="text" id="txtUsuario" placeholder="Usuario">
-			<input type="password" id="txtClave" placeholder="Clave">
-			<input type="mail" id="txtCorreo" placeholder="Correo Electronico">
-
-			<input type="button" value="Guardar" onclick="guardar()">
-
-		</form>
-		<p id="mensaje"></p>
-		<h4>Listado de Programas</h4>
-		<ul id="listado">
-			
-		</ul>
+		<div class="row">
+			<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+				<form role="form">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="txtNombre" placeholder="Nombre">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="txtApellido" placeholder="Apellido">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="form-group">
+								<input type="number" class="form-control input-lg" id="txtEdad" placeholder="Edad" min="1" max="100">
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="form-group">
+								<input type="mail" class="form-control input-lg" id="txtCorreo" placeholder="Correo Electronico">
+							</div>
+						</div>
+					</div>
+					<hr class="colorgraph">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-1">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="txtUsuario" placeholder="Usuario">
+							</div>
+						</div>
+						<div class="col-md-4 col-md-offset-2">
+							<div class="form-group">
+								<input type="password" class="form-control input-lg" id="txtClave" placeholder="Clave">
+							</div>
+						</div>
+					</div>
+					<hr class="colorgraph">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="form-group">
+								<input type="button" class="btn btn-primary input-lg" value="Guardar" onclick="guardar()">
+							</div>
+						</div>
+					</div>
+				</form>
+				<div ></div>
+				<div class="alert alert-warning alert-dismissible" role="alert">
+				  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <p id="mensaje"><strong id="negrilla">Warning!</strong> Better check yourself, you're not looking too good.</p>
+				</div>
+				<h4>Listado de Programas</h4>
+				<ul id="listado">
+					
+				</ul>
+			</div>	
+		</div>
 	</div>
 
 	<script type="text/javascript" src="procesos.js"></script>
