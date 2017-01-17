@@ -100,7 +100,7 @@ function guardar() {
             }
             else {
                 var mensaje = document.getElementById("mensaje");
-                mensaje.innerHTML = "Falta la edad por lo que no se pudo guardar";
+                mensaje.innerHTML = '<div class="alert alert-danger alert-dismissible" role="alert">' + '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' + '<span aria-hidden="true">' + "&times;" + '</span>' + '</button>' + '<strong>' + "Edad!" + '</strong>' + " se encuentra vacia.";
             }
         }
         else {
