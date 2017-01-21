@@ -3,6 +3,7 @@
     autor: Carlos A. Cobo
     fecha: 15 - Enero - 2017
 */
+"use strict";
 var Usuario = (function () {
     // --- Constructor ---
     function Usuario() {
@@ -97,19 +98,23 @@ function guardar() {
                 document.getElementById("txtUsuario").value = "";
                 document.getElementById("txtClave").value = "";
                 document.getElementById("txtCorreo").value = "";
+                var mensaje_exitoso = document.getElementById("mensaje");
+                mensaje_exitoso.innerHTML = '<div class="alert alert-success alert-dismissible" role="alert">' + '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' + '<span aria-hidden="true">' + "&times;" + '</span>' + '</button>' + '<strong>' + "Ingreso Exitoso!" + '</strong>' + ", la informacion se guardo con exito.";
+                var a = setInterval(mensaje_exitoso, 1000);
+                clearInterval(a);
             }
             else {
-                var mensaje = document.getElementById("mensaje");
-                mensaje.innerHTML = '<div class="alert alert-danger alert-dismissible" role="alert">' + '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' + '<span aria-hidden="true">' + "&times;" + '</span>' + '</button>' + '<strong>' + "Edad!" + '</strong>' + " se encuentra vacia.";
+                var mensaje_1 = document.getElementById("mensaje");
+                mensaje_1.innerHTML = '<div class="alert alert-danger alert-dismissible" role="alert">' + '<button type="button" class="close" data-dismiss="alert" aria-label="Close">' + '<span aria-hidden="true">' + "&times;" + '</span>' + '</button>' + '<strong>' + "Edad!" + '</strong>' + " se encuentra vacia.";
             }
         }
         else {
-            var mensaje = document.getElementById("mensaje");
-            mensaje.innerHTML = "Falta el apellido por lo que no se pudo guardar";
+            var mensaje_2 = document.getElementById("mensaje");
+            mensaje_2.innerHTML = "Falta el apellido por lo que no se pudo guardar";
         }
     }
     else {
-        var mensaje = document.getElementById("mensaje");
-        mensaje.innerHTML = "Falta el nombre por lo que no se pudo guardar";
+        var mensaje_3 = document.getElementById("mensaje");
+        mensaje_3.innerHTML = "Falta el nombre por lo que no se pudo guardar";
     }
 }
